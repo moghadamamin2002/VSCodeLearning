@@ -29,10 +29,12 @@ def show(stack):
     for i in stack:
         print(i)
         
-stack = create_stack()
+stack = create_stack(2,3,4)
 push(stack, str(10))
 push(stack, str(20))
 push(stack, str(30))
 push(stack, str(40))
 print("popped item: " + pop(stack))
 show(stack)
+
+
